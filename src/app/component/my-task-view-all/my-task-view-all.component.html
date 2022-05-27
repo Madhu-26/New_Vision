@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 class="mt-4 mb-4">
+        My Task
+    </h1>
+    <hr>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="myTable" *ngFor="let card of cards">
+            <tr>
+               <td>{{card.title}}</td>
+               <td>{{card.description}}</td> 
+               <td><a routerLink="/mytaskdetail" class="viewmorebtn1"><b>View Detail</b> <i class="bi bi-arrow-right"></i></a></td>             
+            </tr>
+        </tbody>
+      </table>
+</div>

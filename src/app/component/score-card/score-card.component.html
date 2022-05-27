@@ -1,0 +1,22 @@
+
+
+
+ <div class="card">
+    <table class="table text-white" >
+      <thead >
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+
+        </tr>
+        </thead>
+        <tbody id="myTable" *ngFor="let card of cards;index as i">
+          <tr *ngIf="i<=2">
+            <td>{{card.title}}</td>
+            <td>{{card.description}}</td>  
+           
+          </tr>
+         
+        </tbody>
+    </table>
+  </div>

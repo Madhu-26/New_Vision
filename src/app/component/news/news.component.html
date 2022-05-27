@@ -1,0 +1,20 @@
+
+<div class="card mb-3" *ngFor="let card of cards" style="max-width: auto">
+
+    <div class="row">
+       
+            <div class="col-md-4">
+                <img class="card-img" src="{{card.img}}" asp-append-version="true" name="ImageName"/>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    {{card.title}}
+                    
+                </div>
+            </div>
+
+            
+    </div>
+    
+</div>
+
