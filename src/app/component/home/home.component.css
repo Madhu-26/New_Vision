@@ -13,16 +13,17 @@
   .row{
     margin-bottom: 15px;
   }
-  
+
   .card-body{
-    background-color: antiquewhite;
+    background-color: #fff;
   }
 
   .jumbotron{
     padding-top: 10px;
     padding-bottom: 5px;
     margin-bottom: 0px;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
   }
 
   .banner
